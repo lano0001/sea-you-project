@@ -3,8 +3,7 @@ import React from "react";
 function Button() {
   return (
     <div className="App">
-      <p></p>
-      Lhelelellele
+      <p>Lhelelellele</p>
     </div>
   );
 }
