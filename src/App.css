@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
+:root {
+  --primary: #3686ff;
+  --primaryhover: #3179e6;
+  --secondary: #e1faff;
+  --accent: #1dc8ae;
+  --accenthover: #1ab49d;
+  --color2: #81a8f0;
+  --color3: #689af4;
+  --color4: #3686ff;
+  --color5: #3686ff;
+  --color6: #1153cc;
+  --color7: #0f43a4;
+}
+
 p {
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
