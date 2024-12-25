@@ -14,15 +14,26 @@
   --color7: #0f43a4;
 }
 
-p {
-  font-family: "Lilita One", sans-serif;
-  font-weight: 400;
-  text-decoration: underline;
-  font-style: normal;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-family: "Lilita One", sans-serif;
+  font-size: 3rem;
+  color: #fff;
+}
+
+p {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.greenword {
+  color: var(--accent);
 }
