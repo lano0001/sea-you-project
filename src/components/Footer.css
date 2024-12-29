@@ -1,0 +1,51 @@
+footer {
+  background-color: #0f43a4;
+  min-height: 600px;
+}
+
+.anker {
+  display: flex;
+  width: 358px;
+  height: 249px;
+  padding-top: 46px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 23px;
+  flex-shrink: 0;
+}
+
+.backTop {
+  margin: auto;
+  display: flex;
+  width: 358px;
+  height: 249px;
+  padding-top: 46px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 23px;
+  flex-shrink: 0;
+}
+
+.SoMe {
+  display: flex;
+  justify-content: flex-start;
+  gap: 23px;
+}
+
+.SoMe img {
+  max-width: 100px;
+  width: auto;
+}
+
+.unIcons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 23px;
+}
+
+.unIcons img {
+  max-width: 216px;
+  width: auto;
+}

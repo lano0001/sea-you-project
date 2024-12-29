@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Whoisseayou from "./components/Whoisseayou";
 import Whyyoushouldcare from "./components/Whyyoushouldcare";
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Whoisseayou />
       <Whyyoushouldcare />
+      <Footer />
     </div>
   );
 }
