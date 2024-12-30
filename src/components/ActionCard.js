@@ -1,5 +1,5 @@
 import React from "react";
-import "./ActionCard.css";
+import "./ReusableComponents/ActionCard.css";
 
 const ActionCard = ({ image, title, description, buttonText, onAction }) => {
   return (
