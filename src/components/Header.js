@@ -12,9 +12,6 @@ function Header() {
       <div class="logo">
         <img class="seayoulogo" src="seayoulogo.png"></img>
       </div>
-      <div class="divein">
-        <img class="diveinimage" src="divein.png"></img>
-      </div>
       <img class="liberty" src="libertyweb.png"></img>
       <img class="eiffeltower" src="eiffeltowerweb.png"></img>
       <Wave1 />

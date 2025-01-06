@@ -29,6 +29,7 @@
 .political-action {
   max-width: 346px;
   margin: 0 auto;
+  padding-bottom: 7rem;
 }
 
 @keyframes flyinleft {

@@ -47,7 +47,7 @@ img {
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 50px;
+  bottom: 120px;
 }
 
 .wavewave {
@@ -56,14 +56,28 @@ img {
 
 .liberty {
   position: absolute;
-  left: -250px;
-  top: -120px;
-  transform: scale(60%);
+  left: -50px;
+  top: 50px;
+  width: 50%;
+  animation: flyd 6s linear infinite;
 }
 
 .eiffeltower {
   position: absolute;
-  right: -250px;
-  top: -120px;
-  transform: scale(60%);
+  right: 0px;
+  top: 50px;
+  width: 50%;
+  animation: flyd 6s linear infinite;
+}
+
+@keyframes flyd {
+  0% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
 }

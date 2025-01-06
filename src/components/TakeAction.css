@@ -4,6 +4,7 @@
   background-color: var(--color5);
   padding: 100px 50px;
   text-align: center;
+  position: relative;
 }
 
 .ActionTitle {

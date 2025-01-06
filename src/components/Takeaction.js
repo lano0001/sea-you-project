@@ -1,6 +1,7 @@
 import React from "react";
 import "./TakeAction.css";
 import ActionCard from "./ActionCard";
+import Wave5 from "./Wave5";
 
 const TakeAction = () => {
   const handleAction = () => {
@@ -18,6 +19,7 @@ const TakeAction = () => {
         <ActionCard image="boats.webp" title="Stop slavery at sea!" description="Overfishing devastates marine life, ecosystems, and the livelihoods of millions." buttonText="Take Action" onAction={handleAction} />
         <ActionCard image="seaMining.webp" title="Stop deep sea mining!" description="The deep sea, rich in biodiversity and vital in fighting climate change, faces a new threat: deep sea mining." buttonText="Take Action" onAction={handleAction} />
       </div>
+      <Wave5 />
     </div>
   );
 };

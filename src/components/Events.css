@@ -2,6 +2,7 @@
   padding: 100px 50px;
   background-color: #1253cc;
   text-align: center;
+  position: relative;
 }
 
 .events-title {

@@ -1,6 +1,7 @@
 import React from "react";
 import EventCard from "./EventCard";
 import "./Events.css";
+import Wave6 from "./Wave6";
 
 const Events = () => {
   const events = [
@@ -25,6 +26,7 @@ const Events = () => {
           <EventCard key={index} image={event.image} title={event.title} />
         ))}
       </div>
+      <Wave6 />
     </div>
   );
 };
