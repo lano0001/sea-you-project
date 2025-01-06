@@ -1,0 +1,28 @@
+/* Take Action */
+
+.TakeAction {
+  background-color: var(--color5);
+  padding: 100px 50px;
+  text-align: center;
+}
+
+.ActionTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ActionTitle img {
+  height: 40px;
+  width: auto;
+}
+
+.ActionCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  gap: 20px;
+  flex-wrap: wrap;
+}

@@ -43,18 +43,3 @@ p {
 .greenword {
   color: var(--accent);
 }
-
-.TakeAction {
-  height: 900px;
-  background-color: var(--color5);
-  padding: 100px 50px;
-  text-align: center;
-}
-
-.ActionCards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 40px 0;
-  gap: 20px;
-}

@@ -1,4 +1,5 @@
 import React from "react";
+import "./TakeAction.css";
 import ActionCard from "./ActionCard";
 
 const TakeAction = () => {
@@ -8,7 +9,10 @@ const TakeAction = () => {
 
   return (
     <div className="TakeAction">
-      <h2>Take Action</h2>
+      <div className="ActionTitle">
+        <h2>Take Action</h2>
+        <img src="megaphone.svg" alt="Action icon"></img>
+      </div>
       <div className="ActionCards">
         <ActionCard
           image="ice.webp"

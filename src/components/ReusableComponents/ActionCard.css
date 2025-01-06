@@ -38,6 +38,7 @@
 }
 
 .card-description {
+  height: 90px;
   font-size: 14px;
   color: white;
   text-align: left;
