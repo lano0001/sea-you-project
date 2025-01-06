@@ -12,8 +12,8 @@ function App() {
     <div className="wrapper">
       <Header />
       <Whoisseayou />
-      <Whatyoucando />
       <Whyyoushouldcare />
+      <Whatyoucando />
       <TakeAction />
       <Events />
       <Footer />

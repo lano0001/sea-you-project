@@ -2,6 +2,7 @@ header {
   min-height: 100vh;
   background-color: #e1faff;
   padding: 70px 50px;
+  position: relative;
 }
 
 img {
@@ -57,12 +58,12 @@ img {
   position: absolute;
   left: -250px;
   top: -120px;
-  transform: scale(75%);
+  transform: scale(60%);
 }
 
 .eiffeltower {
   position: absolute;
   right: -250px;
   top: -120px;
-  transform: scale(75%);
+  transform: scale(60%);
 }

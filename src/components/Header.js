@@ -17,6 +17,7 @@ function Header() {
       </div>
       <img class="liberty" src="libertyweb.png"></img>
       <img class="eiffeltower" src="eiffeltowerweb.png"></img>
+      <Wave1 />
     </header>
   );
 }

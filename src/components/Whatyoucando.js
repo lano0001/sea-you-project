@@ -1,6 +1,7 @@
 import React from "react";
 import "./Whatyoucando.css";
 import "../App.css";
+import Wave4 from "./Wave4";
 
 function Whatyoucando() {
   return (
@@ -20,6 +21,7 @@ function Whatyoucando() {
           <p class="political-action-p">We have gathered a selection of causes that will help keep sea levels down. By appealing to politicans we can put the issue on the agenda and make big structural changes. For this to happen it does require a lot of signatures including YOURS!</p>
         </div>
       </div>
+      <Wave4 />
     </div>
   );
 }

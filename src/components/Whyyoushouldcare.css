@@ -1,6 +1,7 @@
 .whyyoushouldcare {
   background-color: var(--color3);
   padding: 200px 50px;
+  position: relative;
 }
 
 .whyyoushouldcare-h {

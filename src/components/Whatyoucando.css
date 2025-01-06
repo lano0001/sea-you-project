@@ -1,6 +1,7 @@
 .whatyoucando {
   background-color: var(--color4);
   padding: 7rem 0;
+  position: relative;
 }
 
 .fist {
