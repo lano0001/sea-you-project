@@ -1,0 +1,26 @@
+.events-container {
+  padding: 100px 50px;
+  background-color: #1253cc;
+  text-align: center;
+}
+
+.events-title {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.events-title img {
+  height: 36px;
+  width: auto;
+}
+
+.events-grid {
+  display: flex;
+  justify-content: center;
+
+  gap: 40px;
+  flex-wrap: wrap;
+}

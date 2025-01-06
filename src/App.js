@@ -5,6 +5,7 @@ import Whoisseayou from "./components/Whoisseayou";
 import Whyyoushouldcare from "./components/Whyyoushouldcare";
 import TakeAction from "./components/TakeAction";
 import Whatyoucando from "./components/Whatyoucando";
+import Events from "./components/Events";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Whatyoucando />
       <Whyyoushouldcare />
       <TakeAction />
+      <Events />
       <Footer />
     </div>
   );
