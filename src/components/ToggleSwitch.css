@@ -1,14 +1,11 @@
-/* Grayscale filter when toggle is on */
 .wrapper.grayscale {
   filter: grayscale(1);
 }
 
-/* No filter when toggle is off */
 .wrapper.normal {
   filter: grayscale(0);
 }
 
-/* Toggle switch container */
 .toggle-switch {
   width: 58px;
   height: 37px;
@@ -27,7 +24,6 @@
   background-color: var(--primaryhover);
 }
 
-/* Switch circle */
 .switch-circle {
   width: 28px;
   height: 28px;
@@ -40,9 +36,9 @@
 }
 
 .switch-circle.on {
-  transform: translateX(0); /* Default position */
+  transform: translateX(0);
 }
 
 .switch-circle.off {
-  transform: translateX(20px); /* Moves to the right */
+  transform: translateX(20px);
 }

@@ -3,7 +3,7 @@ import "./ToggleSwitch.css";
 
 const ToggleSwitch = ({ isOn, setIsOn }) => {
   const handleToggle = () => {
-    setIsOn(!isOn); // Toggle between on and off
+    setIsOn(!isOn);
   };
 
   return (
