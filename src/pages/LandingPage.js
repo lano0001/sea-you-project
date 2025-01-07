@@ -21,22 +21,18 @@ function LandingPage() {
   return (
     <div className={`wrapper ${isOn ? "grayscale" : ""}`}>
       <Link to="/">Home</Link>
-
       <Link to="/takeaction">Take Action!</Link>
-
       <Header />
       <Whoisseayou />
       <Whyyoushouldcare />
       <Whatyoucando />
       <TakeAction />
       <Events />
-
-=======
+      =======
       <Footer />
       <HeyYou />
       <ShareThis />
       <Interface />
-
     </div>
   );
 }
