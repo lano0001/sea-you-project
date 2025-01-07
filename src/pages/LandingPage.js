@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 
+import Header from "../components/Header";
 import Whoisseayou from "../components/Whoisseayou";
 import Whatyoucando from "../components/Whatyoucando";
 import Whyyoushouldcare from "../components/Whyyoushouldcare";
@@ -15,21 +16,27 @@ import "./LandingPage.css";
 import { Link } from "react-router-dom";
 
 function LandingPage() {
+  const [isOn, setIsOn] = useState(true); // Default state is 'on'
+
   return (
-    <div className="">
+    <div className={`wrapper ${isOn ? "grayscale" : ""}`}>
       <Link to="/">Home</Link>
 
       <Link to="/takeaction">Take Action!</Link>
 
+      <Header />
       <Whoisseayou />
       <Whyyoushouldcare />
       <Whatyoucando />
       <TakeAction />
       <Events />
+
+=======
       <Footer />
       <HeyYou />
       <ShareThis />
       <Interface />
+
     </div>
   );
 }

@@ -1,5 +1,12 @@
-footer {
+.blue1 {
   background-color: #0f43a4;
+}
+
+.blue2 {
+  background-color: #3686ff;
+}
+
+footer {
   min-height: 600px;
   padding: 100px 50px 50px;
 }

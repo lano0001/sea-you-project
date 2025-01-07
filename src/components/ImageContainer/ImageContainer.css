@@ -1,14 +1,39 @@
 .image_container {
-  width: 70%;
   place-self: center;
+  width: 75%;
 }
-.image_container img {
-  width: 100%;
 
+.image_container img {
+  height: 50%;
   place-self: center;
 }
+
 .image_container p {
-  width: 100%;
+  margin: 50px 0;
   place-self: center;
   color: black;
+}
+
+.info_container {
+  place-self: center;
+}
+
+.info_container h1 {
+  color: #3686ff;
+}
+
+.take_more_action_container {
+  width: 80%;
+}
+
+.take_action_cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: #3686ff;
+  display: block;
+  margin: 10px 0;
+  font-weight: 600;
 }
