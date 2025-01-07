@@ -5,13 +5,11 @@ const SignupForm = () => {
   return (
     <div className="signup-container">
       <div className="signup-box">
-        <h1>Sign up</h1>
+        <h1>Send e-mail</h1>
         <p>
-          Sign up for this cause and save the woooorld save the woooorld save
-          the woooorld save the woooorld save the woooorld up for this cause and
-          save the woooorld save the woooorld save the woooorld save the
-          woooorld up for this cause and save the woooorld save the woooorld
-          save the woooorld save the woooorld.
+          Remind Jonas Gahr Støre, Norway's Prime Minister, of his duty to
+          safeguard our blue planet for the well-being of current and future
+          generations.
         </p>
         <form>
           <label>Name</label>
@@ -23,13 +21,17 @@ const SignupForm = () => {
           <label>Phone</label>
           <input type="tel" placeholder="Your phone number" />
 
-          <label>Address</label>
-          <input type="text" placeholder="Your address" />
+          <label>Mail text</label>
+          <textarea
+            type="tel"
+            rows={10}
+            cols={50}
+            placeholder="Dear Mr Gahr Støre, Prime Minister of Norway,"
+          />
 
-          <label>Signature</label>
-          <input type="text" placeholder="Your signature" />
-
-          <button type="submit">Sign Up</button>
+          <button className="card-button" type="submit">
+            Sign Up
+          </button>
         </form>
       </div>
     </div>

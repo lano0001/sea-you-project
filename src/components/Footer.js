@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
-function Footer() {
+function Footer({ bgColor }) {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -10,7 +10,7 @@ function Footer() {
   };
 
   return (
-    <footer>
+    <footer className={bgColor}>
       <div className="backTop" onClick={scrollToTop}>
         <img className="anker" src="Anker.svg" alt="anchor"></img>
         <h2>Back to top</h2>
