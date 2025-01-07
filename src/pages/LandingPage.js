@@ -3,7 +3,8 @@ import React from "react";
 import Whoisseayou from "../components/Whoisseayou";
 import Whatyoucando from "../components/Whatyoucando";
 import Whyyoushouldcare from "../components/Whyyoushouldcare";
-import TakeAction from "../components/Takeaction";
+import TakeAction from "../components/TakeAction";
+import Events from "../components/Events";
 import Footer from "../components/Footer";
 
 import "./LandingPage.css";
@@ -18,10 +19,10 @@ function LandingPage() {
       <Link to="/takeaction">Take Action!</Link>
 
       <Whoisseayou />
-      <Whatyoucando />
       <Whyyoushouldcare />
+      <Whatyoucando />
       <TakeAction />
-
+      <Events />
       <Footer />
     </div>
   );
