@@ -14,7 +14,7 @@ const EventCard = ({ image, title }) => {
         aria-label={title}
       ></div>
       <h3 className="event-card-title">{title}</h3>
-      <CostomButton className="Button" text="Join event" onClick={handleClick} />
+      <CostomButton text="Join event" onClick={handleClick} />
     </div>
   );
 };

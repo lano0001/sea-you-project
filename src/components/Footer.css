@@ -37,7 +37,7 @@ footer {
 
 .SoMe {
   display: flex;
-  margin-top: 50px;
+  margin: 50px 0;
   justify-content: flex-start;
   gap: 23px;
 }

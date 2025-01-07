@@ -1,0 +1,48 @@
+/* Grayscale filter when toggle is on */
+.wrapper.grayscale {
+  filter: grayscale(1);
+}
+
+/* No filter when toggle is off */
+.wrapper.normal {
+  filter: grayscale(0);
+}
+
+/* Toggle switch container */
+.toggle-switch {
+  width: 58px;
+  height: 37px;
+  background-color: var(--primary);
+  border-radius: 20px;
+  position: relative;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 100;
+  display: flex;
+  align-self: center;
+}
+
+.toggle-switch:hover {
+  background-color: var(--primaryhover);
+}
+
+/* Switch circle */
+.switch-circle {
+  width: 28px;
+  height: 28px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 4.5px;
+  left: 4px;
+  transition: transform 0.3s ease;
+}
+
+.switch-circle.on {
+  transform: translateX(0); /* Default position */
+}
+
+.switch-circle.off {
+  transform: translateX(20px); /* Moves to the right */
+}

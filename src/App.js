@@ -1,4 +1,5 @@
 import "./App.css";
+import React, { useState } from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Whoisseayou from "./components/Whoisseayou";
@@ -8,9 +9,11 @@ import Whatyoucando from "./components/Whatyoucando";
 import Events from "./components/Events";
 
 function App() {
+  const [isOn, setIsOn] = useState(true); // Default state is 'on'
+
   return (
-    <div className="wrapper">
-      <Header />
+    <div className={`wrapper ${isOn ? "grayscale" : ""}`}>
+      <Header isOn={isOn} setIsOn={setIsOn} />
       <Whoisseayou />
       <Whyyoushouldcare />
       <Whatyoucando />

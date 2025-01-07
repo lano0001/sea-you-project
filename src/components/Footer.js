@@ -2,9 +2,16 @@ import React from "react";
 import "./Footer.css";
 
 function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <footer>
-      <div className="backTop">
+      <div className="backTop" onClick={scrollToTop}>
         <img className="anker" src="Anker.svg" alt="anchor"></img>
         <h2>Back to top</h2>
       </div>
