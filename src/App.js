@@ -10,23 +10,29 @@ import TakeAction from "./components/TakeAction";
 import Whatyoucando from "./components/Whatyoucando";
 import Events from "./components/Events";
 import LandingPage from "./pages/LandingPage";
-import TakeActionSite1 from "./pages/TakeActionSite1";
-import TakeActionSite2 from "./pages/TakeActionSite2";
-import TakeActionSite3 from "./pages/TakeActionSite3";
+
+=======
+import TakeActionSite from "./pages/TakeActionSite";
+import Navigation from "./components/Navigation/Navigation";
+import EventSite from "./pages/EventSite";
+
 
 function App() {
-  const [isOn, setIsOn] = useState(true); // Default state is 'on'
+  const [isOn, setIsOn] = useState(true);
 
   return (
     <div className={`wrapper ${isOn ? "grayscale" : ""}`}>
-      <Header isOn={isOn} setIsOn={setIsOn} />
+      <Navigation isOn={isOn} setIsOn={setIsOn} />
+      <Header />
       <BrowserRouter>
         <Routes>
           <Route path="/">
             <Route index element={<LandingPage />} />
-            <Route path="/takeaction1" element={<TakeActionSite1 />} />
-            <Route path="/takeaction2" element={<TakeActionSite2 />} />
-            <Route path="/takeaction3" element={<TakeActionSite3 />} />
+
+=======
+            <Route path="/takeaction" element={<TakeActionSite />} />
+            <Route path="/event" element={<EventSite />} />
+
           </Route>
         </Routes>
       </BrowserRouter>

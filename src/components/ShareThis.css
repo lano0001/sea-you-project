@@ -1,0 +1,51 @@
+.sharethis {
+  max-width: 910px;
+  height: fit-content;
+  background-color: var(--primary);
+  padding: 5rem 88px;
+  border-radius: 14px;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
+}
+
+.sharethis-h {
+  padding-top: 3rem;
+}
+
+.referral {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+span {
+  color: #fff;
+  font-weight: bold;
+}
+
+.socialmedia {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+h4 {
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  padding-top: 4rem;
+}
+
+.referrallink {
+  border: 1px #fff dashed;
+  padding: 0.5rem 5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.referrallinkdiv {
+  text-align: center;
+}
