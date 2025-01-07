@@ -1,0 +1,38 @@
+.interface {
+  width: 100%;
+  height: fit-content;
+  background: rgb(54, 134, 255);
+  background: linear-gradient(90deg, rgba(54, 134, 255, 1) 0%, rgba(103, 161, 202, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  padding: 3rem 5rem;
+}
+
+.chooseamonument {
+  padding-top: 3rem;
+}
+
+.interfacebutton {
+  width: 319px;
+  height: 280px;
+  margin-bottom: 2rem;
+}
+
+.interfaceexit {
+  width: 48px;
+  height: 48px;
+  float: right;
+}
+
+@media only screen and (min-width: 1100px) {
+  .interface_grid_1,
+  .interface_grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .interfacebutton {
+    margin-bottom: -1rem;
+  }
+}

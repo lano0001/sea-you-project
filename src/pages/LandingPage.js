@@ -8,6 +8,7 @@ import Events from "../components/Events";
 import Footer from "../components/Footer";
 import HeyYou from "../components/HeyYou";
 import ShareThis from "../components/ShareThis";
+import Interface from "../components/Interface";
 
 import "./LandingPage.css";
 
@@ -28,6 +29,7 @@ function LandingPage() {
       <Footer />
       <HeyYou />
       <ShareThis />
+      <Interface />
     </div>
   );
 }
