@@ -6,6 +6,8 @@ import Whyyoushouldcare from "../components/Whyyoushouldcare";
 import TakeAction from "../components/TakeAction";
 import Events from "../components/Events";
 import Footer from "../components/Footer";
+import HeyYou from "../components/HeyYou";
+import ShareThis from "../components/ShareThis";
 
 import "./LandingPage.css";
 
@@ -24,6 +26,8 @@ function LandingPage() {
       <TakeAction />
       <Events />
       <Footer />
+      <HeyYou />
+      <ShareThis />
     </div>
   );
 }
