@@ -1,0 +1,14 @@
+.image_container {
+  width: 70%;
+  place-self: center;
+}
+.image_container img {
+  width: 100%;
+
+  place-self: center;
+}
+.image_container p {
+  width: 100%;
+  place-self: center;
+  color: black;
+}
