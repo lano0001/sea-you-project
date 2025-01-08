@@ -19,7 +19,7 @@ function ImageContainer({
     <div className="image_container">
       <img src="/norway.webp"></img>
       <div className="info_container">
-        <h3>{title}</h3>
+        <h1 className="TA_title">{title}</h1>
         <p>{subText1}</p>
         <p>{subText2}</p>
         <div>
@@ -27,20 +27,17 @@ function ImageContainer({
             target="_blank"
             href="https://news.mongabay.com/2024/01/really-a-sad-day-as-norway-votes-to-allow-deep-sea-mining-in-arctic-waters/"
           >
-            1. “Really a sad day as Norway votes to allow deep-sea mining in
-            Arctic waters”, Mongabay
+            1. “Really a sad day as Norway votes to allow deep-sea mining in Arctic waters”,
+            Mongabay
           </a>
           <a
             target="_blank"
             href="https://www.greenpeace.org/international/press-release/69799/arctic-biodiversity-under-threat-from-deep-sea-mining-plans-greenpeace-report-warns/"
           >
-            2. Arctic biodiversity under threat from deep-sea mining plans,
-            Greenpeace report warns”, Greenpeace
+            2. Arctic biodiversity under threat from deep-sea mining plans, Greenpeace report
+            warns”, Greenpeace
           </a>
-          <a
-            target="_blank"
-            href="https://www.bbc.com/news/science-environment-67893808"
-          >
+          <a target="_blank" href="https://www.bbc.com/news/science-environment-67893808">
             3. “Deep-sea mining: Norway approves controversial practice”, BBC
           </a>
         </div>

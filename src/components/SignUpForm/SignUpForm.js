@@ -7,9 +7,8 @@ const SignupForm = () => {
       <div className="signup-box">
         <h1>Send e-mail</h1>
         <p>
-          Remind Jonas Gahr Støre, Norway's Prime Minister, of his duty to
-          safeguard our blue planet for the well-being of current and future
-          generations.
+          Remind Jonas Gahr Støre, Norway's Prime Minister, of his duty to safeguard our blue planet
+          for the well-being of current and future generations.
         </p>
         <form>
           <label>Name</label>
@@ -29,7 +28,7 @@ const SignupForm = () => {
             placeholder="Dear Mr Gahr Støre, Prime Minister of Norway,"
           />
 
-          <button className="card-button" type="submit">
+          <button className="Signup_card-button" type="submit">
             Sign Up
           </button>
         </form>

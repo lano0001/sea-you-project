@@ -28,8 +28,7 @@ function LandingPage() {
       <Whatyoucando />
       <TakeAction />
       <Events />
-      =======
-      <Footer />
+      <Footer bgColor={"blue1"} />
       <HeyYou />
       <ShareThis />
       <Interface />

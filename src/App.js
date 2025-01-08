@@ -22,7 +22,6 @@ function App() {
   return (
     <div className={`wrapper ${isOn ? "grayscale" : ""}`}>
       <Navigation isOn={isOn} setIsOn={setIsOn} />
-      <Header />
       <BrowserRouter>
         <Routes>
           <Route path="/">

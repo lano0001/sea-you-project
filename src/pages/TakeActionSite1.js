@@ -26,7 +26,7 @@ function TakeActionSite() {
         </div>
 
         <div className="bot_container">
-          <h3>TAKE MORE ACTION</h3>
+          <h3 className="TA_title">TAKE MORE ACTION</h3>
           <div className="bot_action_card_container">
             <ActionCard
               image="boats.webp"

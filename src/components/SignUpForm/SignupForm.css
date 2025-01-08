@@ -53,7 +53,7 @@ textarea {
   padding: 10px;
 }
 
-.card-button {
+.Signup_card-button {
   width: 50%;
   height: 56px;
   padding: 10px 20px;
@@ -68,7 +68,7 @@ textarea {
   place-self: start;
 }
 
-.card-button:hover {
+.Signup_card-button:hover {
   background-color: #1aab95;
 }
 
