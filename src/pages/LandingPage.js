@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-
+import React from "react";
 import Header from "../components/Header";
 import Whoisseayou from "../components/Whoisseayou";
 import Whatyoucando from "../components/Whatyoucando";
@@ -10,18 +9,12 @@ import Footer from "../components/Footer";
 import HeyYou from "../components/HeyYou";
 import ShareThis from "../components/ShareThis";
 import Interface from "../components/Interface";
-
 import "./LandingPage.css";
 
-import { Link } from "react-router-dom";
-
-function LandingPage() {
-  const [isOn, setIsOn] = useState(true);
-
+function LandingPage({ showPopup, onClosePopup, isOn, setIsOn }) {
   return (
     <div>
-      <Link to="/">Home</Link>
-      <Link to="/takeaction1">Take Action!</Link>
+      {showPopup && <HeyYou onClose={onClosePopup} isOn={isOn} setIsOn={setIsOn} />}
       <Header />
       <Whoisseayou />
       <Whyyoushouldcare />
@@ -29,7 +22,6 @@ function LandingPage() {
       <TakeAction />
       <Events />
       <Footer bgColor={"blue1"} />
-      <HeyYou />
       <ShareThis />
       <Interface />
     </div>
