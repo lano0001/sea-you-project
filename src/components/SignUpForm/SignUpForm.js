@@ -5,7 +5,7 @@ const SignupForm = () => {
   return (
     <div className="signup-container">
       <div className="signup-box">
-        <h1>Send e-mail</h1>
+        <h3>Send e-mail</h3>
         <p>
           Remind Jonas Gahr Støre, Norway's Prime Minister, of his duty to safeguard our blue planet
           for the well-being of current and future generations.

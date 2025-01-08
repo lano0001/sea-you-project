@@ -8,10 +8,17 @@ import Wave4 from "../components/Wave4";
 
 import "./TakeActionSite.css";
 
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Logo from "../components/Navigation/Logo";
 
 function TakeActionSite() {
+  const navigate = useNavigate();
+
+  const handleNavigation = (path) => {
+    window.scrollTo(0, 0);
+    navigate(path);
+  };
+
   return (
     <div>
       <Logo />
@@ -37,12 +44,14 @@ function TakeActionSite() {
                 title="Stop slavery at sea!"
                 description="Overfishing devastates marine life, ecosystems, and the livelihoods of millions."
                 buttonText="Take Action"
+                onAction={() => handleNavigation("/takeaction2")}
               />
               <ActionCard
                 image="seaMining.webp"
                 title="Stop deep sea mining!"
                 description="The deep sea, rich in biodiversity and vital in fighting climate change, faces a new threat: deep sea mining."
                 buttonText="Take Action"
+                onAction={() => handleNavigation("/takeaction3")}
               />
             </div>
           </div>
