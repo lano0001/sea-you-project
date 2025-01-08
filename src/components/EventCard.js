@@ -2,10 +2,7 @@ import React from "react";
 import CostomButton from "./ReusableComponents/CustomButton";
 import "./EventCard.css";
 
-const EventCard = ({ image, title }) => {
-  const handleClick = () => {
-    alert("Button clicked!");
-  };
+const EventCard = ({ image, title, onAction }) => {
   return (
     <div className="event-card">
       <div
@@ -14,7 +11,7 @@ const EventCard = ({ image, title }) => {
         aria-label={title}
       ></div>
       <h3 className="event-card-title">{title}</h3>
-      <CostomButton text="Join event" onClick={handleClick} />
+      <CostomButton text="Join event" onClick={onAction} />
     </div>
   );
 };

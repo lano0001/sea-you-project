@@ -5,6 +5,7 @@ import ActionCard from "../ActionCard";
 import "./ImageContainer.css";
 
 function ImageContainer({
+  image,
   title,
   subText1,
   subText2,
@@ -17,7 +18,7 @@ function ImageContainer({
 }) {
   return (
     <div className="image_container">
-      <img src="/norway.webp"></img>
+      <img src={image}></img>
       <div className="info_container">
         <h1 className="TA_title">{title}</h1>
         <p>{subText1}</p>

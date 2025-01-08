@@ -21,7 +21,7 @@ function LandingPage() {
   return (
     <div>
       <Link to="/">Home</Link>
-      <Link to="/takeaction">Take Action!</Link>
+      <Link to="/takeaction1">Take Action!</Link>
       <Header />
       <Whoisseayou />
       <Whyyoushouldcare />

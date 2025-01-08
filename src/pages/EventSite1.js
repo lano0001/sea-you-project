@@ -1,12 +1,14 @@
 import Footer from "../components/Footer";
+import Logo from "../components/Navigation/Logo";
 import Button from "../components/ReusableComponents/Button";
 import "./EventSite.css";
 
 import { Link } from "react-router-dom";
 
-function EventSite() {
+function EventSite1() {
   return (
     <div className="">
+      <Logo />
       <div className="hero"></div>
       <h1>EVENT // TRASH PICKUP AT THE BEACH</h1>
       <section className="content">
@@ -33,4 +35,4 @@ function EventSite() {
   );
 }
 
-export default EventSite;
+export default EventSite1;

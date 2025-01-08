@@ -14,7 +14,8 @@ import TakeActionSite1 from "./pages/TakeActionSite1";
 import TakeActionSite2 from "./pages/TakeActionSite2";
 import TakeActionSite3 from "./pages/TakeActionSite3";
 import Navigation from "./components/Navigation/Navigation";
-import EventSite from "./pages/EventSite";
+import EventSite1 from "./pages/EventSite1";
+import EventSite2 from "./pages/EventSite2";
 
 function App() {
   const [isOn, setIsOn] = useState(true);
@@ -30,7 +31,8 @@ function App() {
             <Route path="/takeaction1" element={<TakeActionSite1 />} />
             <Route path="/takeaction2" element={<TakeActionSite2 />} />
             <Route path="/takeaction3" element={<TakeActionSite3 />} />
-            <Route path="/event" element={<EventSite />} />
+            <Route path="/event1" element={<EventSite1 />} />
+            <Route path="/event2" element={<EventSite2 />} />
           </Route>
         </Routes>
       </BrowserRouter>
