@@ -27,9 +27,9 @@ function App() {
           <Route path="/">
             <Route index element={<LandingPage />} />
 
-            <Route path="/takeaction" element={<TakeActionSite1 />} />
-            <Route path="/takeaction1" element={<TakeActionSite2 />} />
-            <Route path="/takeaction2" element={<TakeActionSite3 />} />
+            <Route path="/takeaction1" element={<TakeActionSite1 />} />
+            <Route path="/takeaction2" element={<TakeActionSite2 />} />
+            <Route path="/takeaction3" element={<TakeActionSite3 />} />
             <Route path="/event" element={<EventSite />} />
           </Route>
         </Routes>
