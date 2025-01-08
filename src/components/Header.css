@@ -3,6 +3,7 @@ header {
   background-color: #e1faff;
   padding: 0 50px;
   position: relative;
+  overflow: hidden;
 }
 
 img {
