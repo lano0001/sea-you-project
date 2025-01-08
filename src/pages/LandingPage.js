@@ -16,27 +16,23 @@ import "./LandingPage.css";
 import { Link } from "react-router-dom";
 
 function LandingPage() {
-  const [isOn, setIsOn] = useState(true); // Default state is 'on'
+  const [isOn, setIsOn] = useState(true);
 
   return (
-    <div className={`wrapper ${isOn ? "grayscale" : ""}`}>
+    <div>
       <Link to="/">Home</Link>
-
       <Link to="/takeaction">Take Action!</Link>
-
       <Header />
       <Whoisseayou />
       <Whyyoushouldcare />
       <Whatyoucando />
       <TakeAction />
       <Events />
-
-=======
+      =======
       <Footer />
       <HeyYou />
       <ShareThis />
       <Interface />
-
     </div>
   );
 }

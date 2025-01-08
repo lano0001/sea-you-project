@@ -11,11 +11,9 @@ import Whatyoucando from "./components/Whatyoucando";
 import Events from "./components/Events";
 import LandingPage from "./pages/LandingPage";
 
-=======
-import TakeActionSite from "./pages/TakeActionSite";
+import TakeActionSite1 from "./pages/TakeActionSite1";
 import Navigation from "./components/Navigation/Navigation";
 import EventSite from "./pages/EventSite";
-
 
 function App() {
   const [isOn, setIsOn] = useState(true);
@@ -29,10 +27,8 @@ function App() {
           <Route path="/">
             <Route index element={<LandingPage />} />
 
-=======
-            <Route path="/takeaction" element={<TakeActionSite />} />
+            <Route path="/takeaction" element={<TakeActionSite1 />} />
             <Route path="/event" element={<EventSite />} />
-
           </Route>
         </Routes>
       </BrowserRouter>
