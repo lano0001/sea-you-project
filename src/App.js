@@ -8,6 +8,7 @@ import TakeActionSite2 from "./pages/TakeActionSite2";
 import TakeActionSite3 from "./pages/TakeActionSite3";
 import EventSite1 from "./pages/EventSite1";
 import EventSite2 from "./pages/EventSite2";
+import Interface from "./components/Interface";
 
 function App() {
   const [isOn, setIsOn] = useState(true);
@@ -39,6 +40,7 @@ function App() {
           <Route path="/takeaction3" element={<TakeActionSite3 />} />
           <Route path="/event1" element={<EventSite1 />} />
           <Route path="/event2" element={<EventSite2 />} />
+          <Route path="/experience" element={<Interface />} />
         </Routes>
       </BrowserRouter>
     </div>

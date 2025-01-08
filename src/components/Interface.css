@@ -1,9 +1,18 @@
 .interface {
   width: 100%;
-  height: fit-content;
+  height: 1100px;
   background: rgb(54, 134, 255);
-  background: linear-gradient(90deg, rgba(54, 134, 255, 1) 0%, rgba(103, 161, 202, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(54, 134, 255, 1) 0%,
+    rgba(103, 161, 202, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
   padding: 3rem 5rem;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  display: none;
 }
 
 .chooseamonument {
