@@ -22,8 +22,6 @@ function LandingPage({ showPopup, onClosePopup, isOn, setIsOn }) {
       <TakeAction />
       <Events />
       <Footer bgColor={"blue1"} />
-      <ShareThis />
-      <Interface />
     </div>
   );
 }

@@ -9,8 +9,9 @@ import "./TakeActionSite.css";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import Logo from "../components/Navigation/Logo";
+import Wave3 from "../components/Wave3";
 
-function TakeActionSite() {
+function TakeActionSite({ onSignup }) {
   const navigate = useNavigate();
 
   const handleNavigation = (path) => {
@@ -31,7 +32,7 @@ function TakeActionSite() {
               subText1={`Overfishing devastates marine life, ecosystems, and the livelihoods of millions. Seafood companies must step up, ensuring ocean sustainability and protecting workers' rights. Every part of the fishing supply chain shares this responsibility. `}
               subText2={`Join the global movement by signing this petition. Urge global tuna trader FCF—earning $45 billion annually—to lead the way in ethical, sustainable fishing and uphold migrant fishers' rights. Where FCF leads, others will follow. Together, we can protect our oceans and those who depend on them.`}
             />
-            <SignupForm />
+            <SignupForm onSignup={onSignup} />
           </div>
           <div className="bot_container">
             <h3 className="TA_title">TAKE MORE ACTION</h3>
@@ -52,6 +53,9 @@ function TakeActionSite() {
               />
             </div>
           </div>
+        </div>
+        <div className="bottom">
+          <Wave3 />
         </div>
         <Footer bgColor={"blue2"} />
       </div>

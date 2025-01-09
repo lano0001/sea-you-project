@@ -1,28 +1,31 @@
 import React from "react";
 import "./ShareThis.css";
 
-function ShareThis() {
+function ShareThis({ onClose }) {
   return (
-    <div class="sharethis">
-      <img class="exit" src="exit.png"></img>
-      <div class="sharethiscontent">
-        <h3 class="sharethis-h">SHARE THIS & WIN</h3>
-        <p>For the person who manages to get most friends to sign up for this case, we will pick at winner of 15 trees being planted in the amazon rainforest.</p>
-        <div class="referral">
-          <span>Your referral URL</span> <button>Hej</button>
+    <div className="sharethis">
+      <img className="exit" src="exit.png" onClick={onClose} alt="Close" />
+      <div className="sharethiscontent">
+        <h3 className="sharethis-h">SHARE THIS & WIN</h3>
+        <p>
+          For the person who manages to get the most friends to sign up for this case, we will pick
+          a winner of 15 trees being planted in the Amazon rainforest.
+        </p>
+        <div className="referral">
+          <span>Your referral URL</span> <button>Copy</button>
         </div>
-        <br></br>
-        <div class="referrallinkdiv">
-          <a class="referrallink" href="">
+        <br />
+        <div className="referrallinkdiv">
+          <a className="referrallink" href="">
             https://www.seayou.com/event/referral/#134319807
           </a>
         </div>
         <h4>SHARE ON SOCIAL MEDIA</h4>
-        <div class="socialmedia">
-          <img class="icons facebook" src="facebook.png"></img>
-          <img class="icons instagram" src="instagram.png"></img>
-          <img class="icons linkedin" src="linkedin.png"></img>
-          <img class="icons x" src="x.png"></img>
+        <div className="socialmedia">
+          <img className="icons facebook" src="facebook.png" alt="Facebook" />
+          <img className="icons instagram" src="instagram.png" alt="Instagram" />
+          <img className="icons linkedin" src="linkedin.png" alt="LinkedIn" />
+          <img className="icons x" src="x.png" alt="X" />
         </div>
       </div>
     </div>

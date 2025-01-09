@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Logo from "../components/Navigation/Logo";
 import Button from "../components/ReusableComponents/Button";
+import Wave3 from "../components/Wave3";
 import "./EventSite.css";
 
 import { Link } from "react-router-dom";
@@ -30,6 +31,9 @@ function EventSite1() {
         </div>
       </section>
       <img className="fb" src="fb.svg" alt="Facebook logo"></img>
+      <div className="bottom">
+        <Wave3 />
+      </div>
       <Footer bgColor={"blue2"} />
     </div>
   );

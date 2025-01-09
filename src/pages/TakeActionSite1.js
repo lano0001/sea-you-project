@@ -10,8 +10,9 @@ import "./TakeActionSite.css";
 
 import { useNavigate } from "react-router-dom";
 import Logo from "../components/Navigation/Logo";
+import Wave3 from "../components/Wave3";
 
-function TakeActionSite() {
+function TakeActionSite({ onSignup }) {
   const navigate = useNavigate();
 
   const handleNavigation = (path) => {
@@ -33,7 +34,7 @@ function TakeActionSite() {
               }
               subText2={`Imagine if we could turn back time and prevent the oil industry from ever taking hold. Today, we have a rare chance to stop a new extractive industry before it begins—one that could devastate our oceans. Will you stand against deep-sea mining and help protect our planet's future?`}
             />
-            <SignupForm />
+            <SignupForm onSignup={onSignup} />
           </div>
 
           <div className="bot_container">
@@ -55,6 +56,9 @@ function TakeActionSite() {
               />
             </div>
           </div>
+        </div>
+        <div className="bottom">
+          <Wave3 />
         </div>
         <Footer bgColor={"blue2"} />
       </div>

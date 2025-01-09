@@ -3,10 +3,14 @@ import "./Header.css";
 import Wave1 from "./Wave1";
 import CustomButton from "./ReusableComponents/CustomButton";
 import Button from "./ReusableComponents/Button";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
-  const handleClick = () => {
-    alert("Button clicked!");
+  const navigate = useNavigate();
+
+  const handleNavigation = (path) => {
+    window.scrollTo(0, 0);
+    navigate(path);
   };
   return (
     <header>
@@ -14,7 +18,7 @@ function Header() {
         <img class="seayoulogo" src="seayoulogo.png"></img>
       </div>
       <div className="TryEx">
-        <Button text="Try Experience" onClick={handleClick} />
+        <Button text="Try Experience" onClick={() => handleNavigation("/experience")} />
       </div>
       <img class="liberty" src="libertyweb.png"></img>
       <img class="eiffeltower" src="eiffeltowerweb.png"></img>

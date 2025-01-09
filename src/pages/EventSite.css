@@ -63,5 +63,9 @@ input {
   justify-self: center;
   width: 60px;
   height: auto;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
+}
+
+.bottom {
+  position: relative;
 }

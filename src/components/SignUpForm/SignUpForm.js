@@ -1,7 +1,12 @@
 import React from "react";
 import "./SignupForm.css";
 
-const SignupForm = () => {
+const SignupForm = ({ onSignup }) => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    onSignup();
+  };
+
   return (
     <div className="signup-container">
       <div className="signup-box">
@@ -10,7 +15,7 @@ const SignupForm = () => {
           Remind Jonas Gahr Støre, Norway's Prime Minister, of his duty to safeguard our blue planet
           for the well-being of current and future generations.
         </p>
-        <form>
+        <form onSubmit={handleSubmit}>
           <label>Name</label>
           <input type="text" placeholder="Your name" />
 
@@ -22,14 +27,13 @@ const SignupForm = () => {
 
           <label>Mail text</label>
           <textarea
-            type="tel"
             rows={10}
             cols={50}
             placeholder="Dear Mr Gahr Støre, Prime Minister of Norway,"
           />
 
           <button className="Signup_card-button" type="submit">
-            Sign Up
+            Send e-mail
           </button>
         </form>
       </div>

@@ -9,8 +9,9 @@ import "./TakeActionSite.css";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import Logo from "../components/Navigation/Logo";
+import Wave3 from "../components/Wave3";
 
-function TakeActionSite() {
+function TakeActionSite({ onSignup }) {
   const navigate = useNavigate();
 
   const handleNavigation = (path) => {
@@ -30,7 +31,7 @@ function TakeActionSite() {
               subText1={`The deep sea, rich in biodiversity and vital in fighting climate change, faces a new threat: deep sea mining. Companies are pressuring governments to allow massive machines, heavier than blue whales, to extract metals from fragile ocean floors.`}
               subText2={`This is our chance to prevent a disaster—like stopping offshore drilling before the oil age began. We must act now to protect these pristine ecosystems. Governments must take a stand: reject deep sea mining and safeguard our oceans for future generations.`}
             />
-            <SignupForm />
+            <SignupForm onSignup={onSignup} />
           </div>
           <div className="bot_container">
             <h3 className="TA_title">TAKE MORE ACTION</h3>
@@ -51,6 +52,9 @@ function TakeActionSite() {
               />
             </div>
           </div>
+        </div>
+        <div className="bottom">
+          <Wave3 />
         </div>
         <Footer bgColor={"blue2"} />
       </div>

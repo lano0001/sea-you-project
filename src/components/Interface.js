@@ -1,10 +1,13 @@
 import React from "react";
 import "./Interface.css";
+import { Link } from "react-router-dom";
 
 function Interface() {
   return (
     <div class="interface">
-      <img class="interfaceexit" src="exit.png"></img>
+      <Link to="/">
+        <img class="interfaceexit" src="exit.png"></img>
+      </Link>
       <h3 class="chooseamonument">CHOOSE A MONUMENT</h3>
       <div class="interface_grid_1">
         <img class="interfacebutton" src="eiffel_interface.png"></img>

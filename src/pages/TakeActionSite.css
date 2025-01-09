@@ -35,6 +35,11 @@
   margin: 40px 0;
 }
 
+.bottom {
+  position: relative;
+  margin-top: 200px;
+}
+
 @media only screen and (min-width: 1100px) {
   .top_container {
     flex-direction: row;
