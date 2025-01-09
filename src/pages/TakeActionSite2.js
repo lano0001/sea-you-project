@@ -23,10 +23,6 @@ function TakeActionSite() {
       <Logo />
 
       <div className="take_action_container">
-        <Link to="/">Home</Link>
-
-        <Link to="/takeaction">Take Action!</Link>
-
         <div className="margin_container">
           <div className="top_container">
             <ImageContainer
