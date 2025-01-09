@@ -12,7 +12,7 @@ function Footer({ bgColor }) {
   return (
     <footer className={bgColor}>
       <div className="backTop" onClick={scrollToTop}>
-        <img className="anker" src="Anker.svg" alt="anchor"></img>
+        <img className="anker" src="anker.svg" alt="anchor"></img>
         <h2>Back to top</h2>
       </div>
       <div className="contact">
