@@ -11,10 +11,10 @@ import ShareThis from "../components/ShareThis";
 import Interface from "../components/Interface";
 import "./LandingPage.css";
 
-function LandingPage({ showPopup, onClosePopup, isOn, setIsOn }) {
+function LandingPage({ showHeyYou, onCloseHeyYou, isOn, setIsOn }) {
   return (
     <div>
-      {showPopup && <HeyYou onClose={onClosePopup} isOn={isOn} setIsOn={setIsOn} />}
+      {showHeyYou && <HeyYou onClose={onCloseHeyYou} isOn={isOn} setIsOn={setIsOn} />}
       <Header />
       <Whoisseayou />
       <Whyyoushouldcare />

@@ -23,13 +23,28 @@ function App() {
     setShowPopup(false);
   };
 
+  const [showHeyYou, setShowHeyYou] = useState(true);
+
+  const handleCloseHeyYou = () => {
+    setShowHeyYou(false);
+  };
   return (
     <div className={`wrapper ${isOn ? "grayscale" : ""}`}>
       <Navigation isOn={isOn} setIsOn={setIsOn} />
       {showPopup && <ShareThis onClose={handleClosePopup} />}
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<LandingPage isOn={isOn} setIsOn={setIsOn} />} />
+          <Route
+            path="/"
+            element={
+              <LandingPage
+                showHeyYou={showHeyYou}
+                onCloseHeyYou={handleCloseHeyYou}
+                isOn={isOn}
+                setIsOn={setIsOn}
+              />
+            }
+          />
           <Route path="/takeaction1" element={<TakeActionSite1 onSignup={handleShowPopup} />} />
           <Route path="/takeaction2" element={<TakeActionSite2 onSignup={handleShowPopup} />} />
           <Route path="/takeaction3" element={<TakeActionSite3 onSignup={handleShowPopup} />} />
