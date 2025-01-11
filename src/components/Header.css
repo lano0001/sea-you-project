@@ -46,16 +46,16 @@ img {
 .liberty {
   position: absolute;
   left: -50px;
-  top: 50px;
-  width: 50%;
+  width: 55%;
+  bottom: -490px;
   animation: flyd 6s linear infinite;
 }
 
 .eiffeltower {
   position: absolute;
   right: 0px;
-  top: 50px;
   width: 50%;
+  bottom: -190px;
   animation: flyd 6s linear infinite;
 }
 

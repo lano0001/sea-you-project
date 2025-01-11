@@ -30,8 +30,8 @@ const Events = () => {
           title={"Event // Planting Trees"}
           onAction={() => handleNavigation("/event2")}
         />
-        <Wave6 />
       </div>
+      <Wave6 />
     </div>
   );
 };

@@ -32,6 +32,10 @@
   cursor: pointer;
 }
 
+.exit:hover {
+  filter: brightness(0.9);
+}
+
 .Toggle {
   display: flex;
   flex-direction: column;

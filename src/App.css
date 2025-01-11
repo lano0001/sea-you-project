@@ -20,6 +20,10 @@
   box-sizing: border-box;
 }
 
+.wrapper {
+  background-color: var(--secondary);
+}
+
 h2 {
   font-family: "Lilita One", sans-serif;
   font-size: 3rem;
