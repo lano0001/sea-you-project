@@ -15,6 +15,12 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 580px) {
+  .event-card {
+    min-width: 375px;
+  }
+}
+
 .event-card:hover {
   background-color: #3279e6;
 }

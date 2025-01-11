@@ -65,3 +65,13 @@
 .card-button:hover {
   background-color: #1aab95;
 }
+
+@media screen and (max-width: 420px) {
+  .action-card {
+    min-width: 320px;
+    height: auto;
+  }
+  .card-description {
+    height: 114px;
+  }
+}
